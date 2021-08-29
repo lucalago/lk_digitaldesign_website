@@ -27,12 +27,17 @@
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
-h1, #span-1, #span-2, #span-3, p.name-logo, button {
+h1, #span-1, #span-2, #span-3, p.name-logo, button, h3 {
     font-family: neueMetana, sans-serif;
 }
-h2, h3, h4, h5, h6, p, span {
+h2,, h4, h5, h6, p, span {
     font-family: codecPro, sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p {
     cursor: default;
+}
+section {
+    z-index: 1;
+    position: relative;
+    min-height: 100vh;
 }
