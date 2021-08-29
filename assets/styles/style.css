@@ -13,11 +13,11 @@
 }
 @font-face {
     font-family: neueMetana;
-    src: url(/assets/fonts/NeueMetana-Regular.otf);
+    src: url(./assets/fonts/NeueMetana-Regular.otf);
   }
 @font-face {
     font-family: codecPro;
-    src: url(/assets/fonts/codecproregular.woff);
+    src: url(./assets/fonts/codecproregular.woff);
 }
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
