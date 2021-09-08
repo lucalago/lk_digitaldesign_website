@@ -39,12 +39,6 @@ section {
     opacity: 1;
 
 }
-.section_entrance {
-
-}
-.section_exit {
-
-}
 .section_header {
     margin: 0rem 0 0px;
     margin-top: 0rem;
@@ -77,11 +71,11 @@ div.section_header:nth-child(2n+2), div.section_header:nth-child(2n+2) > .sectio
     flex-wrap: wrap;
     flex-direction: row;
 }
-span#span-1, span#span-2, span#span-3, .wider, .logo_lk img {
+span#span-1, span#span-2, span#span-3, .wider {
     background: linear-gradient(231deg, #1f1f1f, #d0ff00, #1f1f1f);
     background-clip: text;
-    text-fill-color: transparent;
     -webkit-background-clip: text;
+    -ms-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
 .wider {
@@ -166,6 +160,9 @@ p.card_text, .item_description, .list_title, .projectcard_content {
 }
 ul.list_content > li {
     letter-spacing: 0.01rem;
+}
+.subsection_description > p {
+    margin-bottom: 0 !important;
 }
 @media screen and (min-width: 42em) {
     .wider {
