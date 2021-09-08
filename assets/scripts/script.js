@@ -21,13 +21,14 @@ var scrollTop = window.pageYOffset;
 
 if (displayMode == 'block' && newSection != initSection) { 
     document.getElementById(clickedlink).style.display = 'none';
-}   else {
+} if (displayMode == 'block' && newSection == initSection) {
+    document.getElementById(clickedlink).style.display = 'block';
+} else {
+        initSection = newSection;
         document.getElementById(clickedlink).style.display = 'block';
-        initSection = clickedlink;
     }
 scrollTop = 0;
 return false;
-
 }
 
 // function transitionPage(e) {
