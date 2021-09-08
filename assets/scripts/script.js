@@ -1,7 +1,8 @@
 function changePage(clickedlink) {
-    displayPage(clickedlink);
-    translateNavPill(clickedlink);
     nohoverCurrentPage(clickedlink);
+    translateNavPill(clickedlink);
+    displayPage(clickedlink);
+    // transitionPage(clickedlink);
 }
 
 function displayPage(clickedlink) {
@@ -16,21 +17,63 @@ for (var i=0; i<sections.length; i++) {
 var displayMode = document.getElementById(clickedlink).style.display;
 var initSection = 'section0';
 var newSection = clickedlink;
+var scrollTop = window.pageYOffset;
 
 if (displayMode == 'block' && newSection != initSection) { 
     document.getElementById(clickedlink).style.display = 'none';
-
 }   else {
         document.getElementById(clickedlink).style.display = 'block';
-        translateNavPill(newSection);
-        // transitionPage(newSection);
         initSection = clickedlink;
     }
+scrollTop = 0;
 return false;
+
 }
 
 // function transitionPage(e) {
-
+//     var initSection = 'section0';
+//     var initSectionElement = document.getElementById(initSection);
+//     var newSection = e;
+//     var newSectionElement = document.getElementById(e);
+//     if (newSection == 'section0' && newSection != initSection){
+//         initSectionElement.style.opacity="0.8";
+//         wait(200);
+//         initSectionElement.style.transform="scale(0.8)";
+//         wait(200);
+//         newSectionElement.style.transform="scale(1)";
+//         wait(200);
+//         newSectionElement.style.opacity="1";
+//         initSection == e;
+//         console.log(initSectionElement);
+//     } else if (newSection == 'section1' && newSection != initSection){
+//         initSectionElement.style.opacity="0.8";
+//         wait(200);
+//         initSectionElement.style.transform="scale(0.8)";
+//         wait(200);
+//         newSectionElement.style.transform="scale(1)";
+//         wait(200);
+//         newSectionElement.style.opacity="1";
+//         initSection == e;
+//     } else if (newSection == 'section2' && newSection != initSection){
+//         initSectionElement.style.opacity="0.8";
+//         wait(200);
+//         initSectionElement.style.transform="scale(0.8)";
+//         wait(200);
+//         newSectionElement.style.transform="scale(1)";
+//         wait(200);
+//         newSectionElement.style.opacity="1";
+//         initSection == e;
+//     } else if (newSection == 'section3' && newSection != initSection){
+//         initSectionElement.style.opacity="0.8";
+//         wait(200);
+//         initSectionElement.style.transform="scale(0.8)";
+//         wait(200);
+//         newSectionElement.style.transform="scale(1)";
+//         wait(200);
+//         newSectionElement.style.opacity="1";
+//         initSection == e;
+//     }
+// return false;
 // }
 
 function translateNavPill(e) {
@@ -81,3 +124,11 @@ if (e == 'section0'){
     section3Link.classList.add('nohover');
 }
 }
+
+function wait(ms){
+    var start = new Date().getTime();
+    var end = start;
+    while(end < start + ms) {
+      end = new Date().getTime();
+   }
+ }
