@@ -43,6 +43,7 @@
     letter-spacing: -0.02em;
     hyphens: auto;
     white-space: pre-line;
+    color: var(--main-font-color-primary);
 }
 .contactinfo-link {
     color: var(--main-font-color-primary);
@@ -61,7 +62,7 @@
     color: var(--main-font-color-primary);
 }
 .contactinfo-link:hover {
-    border-bottom-color: black;
+    border-bottom-color: var(--main-neon-color);
 }
 .button-contact {
     margin: 1.75rem 0px 0px;
@@ -83,12 +84,12 @@
     outline: currentcolor none medium;
     background: var(--main-neon-color) none repeat scroll 0% 0%;
     transition: all 0.25s ease-in-out 0s;
-    color: var(--main-font-color-primary);
+    color: var(--main-bg-color);
 }
 a.button-contact:hover {
     text-decoration: none;
     background: rgb(183, 224, 0);
-    color: var(--main-font-color-primary);
+    color: black;
 }
 
 @media screen and (min-width: 42em) {

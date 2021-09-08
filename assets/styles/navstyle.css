@@ -14,7 +14,7 @@
     height: 2.75rem;
     border-radius: 1.125rem;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.98) none repeat scroll 0% 0%;
+    background: var(--main-font-color-secondary) none repeat scroll 0% 0%;
     pointer-events: all;
 }
 .navigation_selector {
@@ -81,20 +81,23 @@ nav.navbar_controls > ul {
     display: flex;
     -moz-box-align: center;
     align-items: center;
-    padding: 1rem 0.75rem 0;
+    padding: 0.8rem 0.75rem 0;
     height: 2.25rem;
     border-radius: 1.25rem;
     transition: color 0.1s ease-in-out 0s;
     user-select: none;
     text-decoration: none;
-    color: var(--main-color-dark);
+    color: var(--main-bg-color);
 }
 .navitem_link:hover {
     text-decoration: none;
-    color: var(--main-font-color-secondary);
+    color: var(--main-bg-color-reverse);
 }
 .nohover:hover {
-    color: var(--main-font-color-primary);
+    color: var(--main-bg-color);
+}
+.nohover {
+    color: var(--main-bg-color);
 }
 .navitem_link {
     position: relative;
