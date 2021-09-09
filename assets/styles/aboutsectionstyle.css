@@ -1,9 +1,9 @@
 div.logo_lk {
     padding-top: 0px;
-    margin-top: -8rem;
+    margin-top: -25vw;
 }
 .logo_lk > img {
-    max-height: 22vw;
+    max-height: 18vw;
     z-index: 10;
     border-radius: 4px;
 }
@@ -164,6 +164,9 @@ h3.card_title_h3, p.card_text {
     .logo_lk img {
         max-height: 12vw;
     }
+    div.logo_lk {
+        margin-top: -15vw;
+    }
     span#span-1, span#span-2, span#span-3 {
         height: 9vw;
     }
@@ -235,7 +238,9 @@ h3.card_title_h3, p.card_text {
     }
 }
 @media screen and (min-width: 62em) {
-
+    div.logo_lk {
+        margin-top: -10vw;
+    }
     .logo_lk img {
         max-height: 9vw;
     }
