@@ -26,40 +26,40 @@ div.logo-item {
     background-color: yellow;
 }
 #logo1 {
-    background: url(/assets/img/Logo-Emundi.png);
+    background: url(assets/img/Logo-Emundi.png);
 }
 #logo2 {
-    background: url(/assets/img/Logo-GemeenteAmsterdam.png);
+    background: url(assets/img/Logo-GemeenteAmsterdam.png);
 }
 #logo3 {
-    background: url(/assets/img/Logo-VivaWyndham.png);
+    background: url(assets/img/Logo-VivaWyndham.png);
 }
 #logo4 {
-    background: url(/assets/img/Logo-Tuipng.png);
+    background: url(assets/img/Logo-Tuipng.png);
 }
 #logo5 {
-    background: url(/assets/img/Logo-BoardingGate.png);
+    background: url(assets/img/Logo-BoardingGate.png);
 }
 #logo6 {
-    background: url(/assets/img/Logo-CivicInteraction.png);
+    background: url(assets/img/Logo-CivicInteraction.png);
 }
 #logo7 {
-    background: url(/assets/img/Logo-HotelsCollection.png);
+    background: url(assets/img/Logo-HotelsCollection.png);
 }
 #logo8 {
-    background: url(/assets/img/Logo-JeraTur.png);
+    background: url(assets/img/Logo-JeraTur.png);
 }
 #logo9 {
-    background: url(/assets/img/Logo-Arcam.png);
+    background: url(assets/img/Logo-Arcam.png);
 }
 #logo10 {
-    background: url(/assets/img/Logo-Ringana.png);
+    background: url(assets/img/Logo-Ringana.png);
 }
 #logo11 {
-    background: url(/assets/img/Logo-Thieme.png);
+    background: url(assets/img/Logo-Thieme.png);
 }
 #logo12 {
-    background: url(/assets/img/Logo-ViraModa.png);
+    background: url(assets/img/Logo-ViraModa.png);
 }
 .grid-inner-card {
     margin: 0px -0.375rem -3rem;
@@ -194,40 +194,40 @@ div.logo-item {
     overflow: hidden;
 }
 #project_1 {
-    background: url(/assets/img/Emundi-Marketplace.jpg);
+    background: url(assets/img/Emundi-Marketplace.jpg);
 }
 #project_2 {
-    background: url(/assets/img/Emundi-DesignSystem.jpg);
+    background: url(assets/img/Emundi-DesignSystem.jpg);
 }
 #project_3 {
-    background: url(/assets/img/BG-Mockup.jpg);
+    background: url(assets/img/BG-Mockup.jpg);
 }
 #project_4 {
-    background: url(/assets/img/Inclusive-Design-Mockup.jpg);
+    background: url(assets/img/Inclusive-Design-Mockup.jpg);
 }
 #project_5 {
-    background: url(/assets/img/HotelsCollection-Mockup.jpg);
+    background: url(assets/img/HotelsCollection-Mockup.jpg);
 }
 #project_6 {
-    background: url(/assets/img/Arcam-Interface.jpg);
+    background: url(assets/img/Arcam-Interface.jpg);
 }
 #project_7 {
-    background: url(/assets/img/Covid-Mockups.jpg);
+    background: url(assets/img/Covid-Mockups.jpg);
 }
 #project_8 {
-    background: url(/assets/img/Ringana-Mockup.jpg);
+    background: url(assets/img/Ringana-Mockup.jpg);
 }
 #project_9 {
-    background: url(/assets/img/FTL-Mockup.jpg);
+    background: url(assets/img/FTL-Mockup.jpg);
 }
 #project_10 {
-    background: url(/assets/img/Thieme-Mockup.jpg);
+    background: url(assets/img/Thieme-Mockup.jpg);
 }
 #project_11 {
-    background: url(/assets/img/JeraTur-Mockup.jpg);
+    background: url(assets/img/JeraTur-Mockup.jpg);
 }
 #project_12 {
-    background: url(/assets/img/TUI-Mockup.jpg);
+    background: url(assets/img/TUI-Mockup.jpg);
 }
 
 @media screen and (min-width: 42em) {

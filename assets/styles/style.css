@@ -19,7 +19,7 @@ body {
 }
 @font-face {
     font-family: Neue;
-    src: url(/assets/fonts/NeueMetana-Regular.otf);
+    src: url(./assets/fonts/NeueMetana-Regular.otf);
   }
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
