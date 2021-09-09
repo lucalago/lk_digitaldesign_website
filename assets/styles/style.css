@@ -17,6 +17,10 @@
 body {
     background-color: var(--main-bg-color);
 }
+@font-face {
+    font-family: Neue;
+    src: url(/assets/fonts/NeueMetana-Regular.otf);
+  }
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -30,6 +34,10 @@ h1, #span-1, #span-2, #span-3, p.name-logo, button, h3, h2, h4, h5, h6, p, span 
 }
 h1, h2, h3, h4, h5, h6, p {
     cursor: default;
+}
+span#arrow-right {
+    font-family: Neue;
+    font-size: 1.65rem;
 }
 section {
     z-index: 1;
