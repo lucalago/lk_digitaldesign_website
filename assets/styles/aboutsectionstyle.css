@@ -1,7 +1,7 @@
 div.logo_lk {
-    padding-top: 0px;
-    margin-top: -25vw;
-    margin-left: 0px;
+    position: relative !important;
+    top: -60px !important;
+    left: 0px !important;
 }
 .logo_lk > img {
     max-height: 18vw;
