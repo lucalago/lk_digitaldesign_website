@@ -5,6 +5,7 @@ div.logo_lk {
 }
 .logo_lk > img {
     max-height: 18vw;
+    max-width: 120px; 
     z-index: 10;
     border-radius: 4px;
 }
@@ -17,6 +18,7 @@ span#span-1, span#span-2, span#span-3 {
     transition: all 800ms linear;
     padding: 3px;
     height: 13vw;
+    top: -60px;
     background-size: 180% 180%;
     animation: lightstripe2 6s ease-in-out infinite;
     -webkit-animation: lightstripe2 6s ease-in-out infinite;
@@ -124,7 +126,7 @@ h3.card_title_h3, p.card_text {
 }
 .section_headline > img {
     position: absolute;
-    top: -150vw;
+    top: -180vw;
     right: -60vw;
     width: 150vw;
 }
@@ -145,6 +147,10 @@ h3.card_title_h3, p.card_text {
     opacity: 1;
     z-index: -1;
 }
+.mb-small {
+    margin-bottom: 0;
+    max-height: 320px;
+}
 
 @media screen and (min-width: 42em) {
     .section_headline > img {
@@ -162,14 +168,16 @@ h3.card_title_h3, p.card_text {
         margin-top: 14vw;
         padding-bottom: 3rem;
     } */
-    .logo_lk img {
+    .logo_lk > img {
         max-height: 12vw;
-    }
-    div.logo_lk {
-        margin-top: -15vw;
+        max-width: none;
     }
     span#span-1, span#span-2, span#span-3 {
         height: 9vw;
+    }
+    .mb-small {
+        margin-bottom: 5rem;
+        max-height: none;
     }
     .section_frame {
         padding-bottom: 7.5rem;
@@ -240,7 +248,7 @@ h3.card_title_h3, p.card_text {
 }
 @media screen and (min-width: 62em) {
     div.logo_lk {
-        margin-top: -10vw;
+        margin-top: -5vw;
     }
     .logo_lk img {
         max-height: 9vw;
